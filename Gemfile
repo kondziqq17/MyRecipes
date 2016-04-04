@@ -22,3 +22,12 @@ group :development do
   gem 'spring'
 end
 
+group :development, :test do
+gem 'sqlite3'
+gem 'pry'
+end
+
+group :production do
+
+end
+
