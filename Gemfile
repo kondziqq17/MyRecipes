@@ -15,6 +15,8 @@ group :development, :test do
 end
 
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
+gem 'carrierwave', '0.11.0'
+gem 'mini_magick'
 
 group :development do
   gem 'web-console', '~> 2.0'
