@@ -17,6 +17,8 @@ end
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'carrierwave', '0.11.0'
 gem 'mini_magick'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
 group :development do
   gem 'web-console', '~> 2.0'
