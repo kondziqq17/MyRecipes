@@ -19,6 +19,7 @@ gem 'carrierwave', '0.11.0'
 gem 'mini_magick'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
+gem 'bcrypt'
 
 group :development do
   gem 'web-console', '~> 2.0'
