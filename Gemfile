@@ -20,6 +20,7 @@ gem 'mini_magick'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 gem 'bcrypt'
+gem 'fog'
 
 group :development do
   gem 'web-console', '~> 2.0'
