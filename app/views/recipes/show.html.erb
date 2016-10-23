@@ -36,8 +36,24 @@
 				<%= link_to like_recipe_path(@recipe, like: false), method: :post do %>
 				<i class="glyphicon glyphicon-thumbs-down"></i> &nbsp <%= @recipe.thumbs_down_total %>
 					<% end %>
+
 				</div>
 			</div>
 		</div>
 	</div>
+	<div class="well col-md-8">
+		<div class="row">
+			<div class="col-md-10">
+				<h3>Comments</h3>
+					<%= render @recipe.comments %>
+				</div>
+			</div>
+		</div>
+	<div class="well col-md-8">
+		<div class="row">
+			<div class="col-md-10">			
+				<h3>Add a comment:</h3>
+					<%= render "comments/form" %>
+			</div>
+		</div>
 <h5><%= link_to 'Return To Recipes Listing', recipes_path, class: "btn btn-warning btn-small" %></h5>

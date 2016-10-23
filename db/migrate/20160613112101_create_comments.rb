@@ -1,7 +1,8 @@
-class CreateReviews < ActiveRecord::Migration
+class CreateComments < ActiveRecord::Migration
   def change
-    create_table :reviews do |t|
-      t.text :content
+    create_table :comments do |t|
+      t.string :commenter
+      t.text :body
       t.references :chef, index: true, foreign_key: true
       t.references :recipe, index: true, foreign_key: true
 
